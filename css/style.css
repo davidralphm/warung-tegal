@@ -191,3 +191,26 @@ footer {
 	display: block;
 	width: 100%;
 }
+
+/* Courses video */
+
+.courses .video {
+	/*min-height: 400px;*/
+}
+
+.courses .video .video-frame {
+	height: 400px;
+}
+
+.padding { padding: 1em; }
+
+.order-button {
+	border-radius: 1em;
+	border: 0;
+	outline: none;
+	padding: 0.5em 1em;
+	background-color: #ccc;
+	transition: background-color 200ms;
+}
+
+.order-button:hover { background-color: #aaa; }
